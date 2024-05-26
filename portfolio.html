@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container home-content">
+                <div class="home-text">
+                    <h2>Hi, I'm Prasanth</h2>
+                    <p>I am a web developer with expertise in HTML, CSS, and JavaScript. I create beautiful and functional websites.</p>
+                </div>
+                <div class="home-photo">
+                    <img src="https://res.cloudinary.com/dxtgniz5c/image/upload/v1716638380/Prasanth_zf6z45.jpg" alt="Professional Photo" class="profile-photo">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm currently studying at KL University and have completed my 2nd year of engineering (2022-2024).</p>
+                <p>I specialize in building responsive web applications using HTML, CSS, and JavaScript, along with frameworks like React. With expertise in Node.js, Python, and SQL, I manage backend processes efficiently. Constantly updating my skills, I focus on delivering top-notch solutions, whether it's crafting dynamic applications, RESTful APIs, or intuitive user interfaces. Let's collaborate to bring your ideas to fruition!</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-gallery">
+                    <div class="project" data-project="1">
+                        <img src="https://cdn.buttercms.com/kBxROhHT4yVGkvq4MjZa" alt="Smart City" class="project-image">
+                        <h3>Smart City</h3>
+                    </div>
+                    <div class="project" data-project="2">
+                        <img src="https://media.licdn.com/dms/image/D5612AQGyzS4ajDLrgg/article-cover_image-shrink_600_2000/0/1693551129961?e=2147483647&v=beta&t=EbmdqYEmYtSBW5NT46UkvyR1keYuMw__3fnH3Pbz2Fw" alt="Student Course Management System" class="project-image">
+                        <h3>Student Course Management System</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Connect with Me</h2>
+                <div class="social-links">
+                    <a href="https://github.com/Prasanth631" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="social-icon"> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/prasanth-golla-960220286/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon"> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
