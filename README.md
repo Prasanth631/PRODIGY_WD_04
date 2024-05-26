@@ -18,7 +18,7 @@ Welcome to my portfolio! This project showcases my skills and projects as a web 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Prasanth631/portfolio.git
+   git clone https://github.com/Prasanth631/PRODIGY_WD_04
    cd portfolio
    ```
 
